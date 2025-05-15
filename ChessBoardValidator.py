@@ -1,11 +1,13 @@
 # Chess board validator
 # Ace - 2025-03-26
 
-# This program will look at a chess board, and based on these rules:
+# This program will look at a chess board, and based on these rules...:
     # A valid board will only have one white king and one black king
     # Each player can't have a piece count exceeding 16
         # Each player's pawn count can't exceed 8
     # All pieces must be on a valid space from '1a' to '8h'
+
+# ...it will verify the legitmacy of the chess board
 
 # Piece names will begin either either of the two prefixes: 'w' or 'b' to represent piece color
 
