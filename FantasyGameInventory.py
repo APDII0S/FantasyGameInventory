@@ -1,18 +1,24 @@
 # inventory.py
 
+# Displays the user's inventory in the format: "{count} {item}"
+# followed by "Total Items: {itemCount}"
+
+# `display_inventory` displays user's current inventory for viewing purposes
+# `add_to_inventory` adds elements from a list, to the user's inventory
+
+
+
+"""~ More concise message above. ~"""
+
+
+
 """# This program's first half will look at a user's current inventory, and display them with the following format:
 # "{v} {k}", where `v` means count of an item in inventory, and `k`—the actual item
 # f"Total Items: {itemCount}"
 
 # But for the other half, it will look at things to add to a user's inventory"""
 
-"""~ More concise message below. ~"""
 
-# Displays the user's inventory in the format: "{count} {item}"
-# followed by "Total Items: {itemCount}"
-
-# `display_inventory` displays user's current inventory for viewing purposes
-# `add_to_inventory` adds elements from a list, to the user's inventory
 
 
 
@@ -57,6 +63,9 @@ def add_to_inventory(inventory, addedItems):
 
     return inventory
 
+print('INVENTORY with "stuff"')
+display_inventory(stuff)
 
+print('\n\nINVENTORY with "dragonLoot" added to "stuff"')
 display_inventory(add_to_inventory(stuff, dragonLoot))
 
