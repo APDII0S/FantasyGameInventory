@@ -1,8 +1,8 @@
 # Coin Flip Streaks
 # Ace ~ 2025-03-09
 
-# This program will flip a coin 10000 times, and find the odds of
-# finding a streak of 6 heads/tails.
+# This program will flip a coin 10000 times, and find the combined odds of
+# finding a streak of 6 heads, and 6 tails.
 
 import random
 streaks = 0
