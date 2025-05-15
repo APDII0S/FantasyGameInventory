@@ -7,7 +7,7 @@
         # Each player's pawn count can't exceed 8
     # All pieces must be on a valid space from '1a' to '8h'
 
-# ...it will verify the legitmacy of the chess board
+# ...it will verify the legitimacy of the chess board
 
 # Piece names will begin either either of the two prefixes: 'w' or 'b' to represent piece color
 
